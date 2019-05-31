@@ -5,9 +5,9 @@ def roll_call_dwarves(array)# code an argument here
 end
 end
 
-def summon_captain_planet(veggies)
-  veggies.map! {|name| name.capitalize}
-  veggies.each { |name| puts veggies + "!"}# code an argument here
+def summon_captain_planet(array)
+  array.map! {|name| name.capitalize}
+  array.each { |name| puts name + "!"}# code an argument here
   # Your code here
 end
 
