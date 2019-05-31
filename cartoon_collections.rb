@@ -6,12 +6,8 @@ end
 end
 
 def summon_captain_planet(array)
-  nuarray = []
   array.map! {|name| name.capitalize}
-  nuarray<<array.join("!") + ("! ")
-  
-  # code an argument here
-  # Your code here
+  array.split("!")  # Your code here
 end
 
 def long_planeteer_calls(array)# code an argument here
