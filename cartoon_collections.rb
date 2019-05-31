@@ -7,11 +7,17 @@ end
 
 def summon_captain_planet(array)
   array.map! {|name| name.capitalize}
-  array.each { |name| puts name + "!"}# code an argument here
+  first = []
+  final = []
+  array.map! {|name| name.capitalize}
+  first<<array.shift + "! "
+  final = first.join(" ") + "#{array.join(" ")}"
+  final.split
+  # code an argument here
   # Your code here
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(array)# code an argument here
   # Your code here
 end
 
