@@ -6,13 +6,10 @@ end
 end
 
 def summon_captain_planet(array)
+  nuarray = []
   array.map! {|name| name.capitalize}
-  first = []
-  final = []
-  array.map! {|name| name.capitalize}
-  first<<array.shift + "! "
-  final = first.join(" ") + "#{array.join(" ")}"
-  final.split
+  nuarray<<array.join("!") + ("! ")
+  
   # code an argument here
   # Your code here
 end
